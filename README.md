@@ -1,6 +1,6 @@
 # Apache-Log-Parser
 Author: Ryan Paul Gozum<br/><br/>
-This is a python script for parsing apache log and detecting anomalous client requests, particularly SQL Injection, Remote File Inclusion, and Web Shell using regular expression derived from known patterns. 
+This is a python script for parsing apache log and detecting anomalous client requests, particularly SQL Injection, Remote File Inclusion, and Web Shell using regular expressions derived from known patterns. 
 
 
 ## Developer Guide
@@ -14,9 +14,9 @@ $ pip install python-geoip
 ```
 $ pip install python-geoip-geolite2
 ```
-* Put the log file to be tested inside Test folder. In this code, I have a Test.log file which is a subfile of CLTF1.log. 
+* Put the log file to be tested inside the Test folder. In this code, I have a Test.log file which is a subfile of CLTF1.log. 
 ```
-ryan:~/Documents/Horangi$ tail -50000 CTF1.log > src/test/Test.log</i>
+ryan:~/Documents/Horangi$ tail -50000 CTF1.log > src/test/Test.log
 ```
 
 ## User Guide
@@ -36,7 +36,7 @@ ryan:~/Documents/Horangi$ tail -50000 CTF1.log > src/test/Test.log</i>
 client_ip_record[key] = [hits, activity 1, activity 2, ... , activity n] 
 where key is the client ip address
 ```
-* `PrintResult` function writes the record into files. This also calls the analyze_query.py to check whether passed query is malicious.
+* `PrintResult` function writes the record into files which are located in the Result folder. This also calls the analyze_query.py to check whether passed query is malicious.
 
 ```
 List of unique IP addresses as a flat text file
