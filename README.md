@@ -8,11 +8,11 @@ This is a python script for parsing apache log and detecting anomalous client re
 * Install python package manager from <i>https://pypi.python.org/pypi/pip</i>.
 * To gain access to GeoIP databases for IP Address location, get the library directly from PyPI: 
 ```
-pip install python-geoip
+$ pip install python-geoip
 ```
 * If you also want the free MaxMind Geolite2 database you can in addition:
 ```
-pip install python-geoip-geolite2
+$ pip install python-geoip-geolite2
 ```
 * Put the log file to be tested inside Test folder. In this code, I have a Test.log file which is a subfile of CLTF1.log. 
 ```
@@ -50,6 +50,7 @@ Detect web shells with found entries to flat text file
 ### analyze_query.py
 * Returns `True` if input query is malicious. Otherwise, return `False`.
 * Divided into three parts:
+
 detectSQLi
 ```
 Checks if input query performs SQL Injection attack.
