@@ -14,7 +14,7 @@ $ pip install python-geoip
 ```
 $ pip install python-geoip-geolite2
 ```
-* Put the test log files inside the Test folder. In this code, I have a Test.log file which is a subfile of CLTF1.log containing 50,000 requests. 
+* Put the test log files inside the Test folder. In this project, I have a Test.log file which is a subfile of CLTF1.log containing 50,000 requests. 
 ```
 ryan:~/Documents/Horangi$ tail -50000 CTF1.log > src/test/Test.log
 ```
