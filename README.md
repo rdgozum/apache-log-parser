@@ -1,6 +1,6 @@
 # Apache-Log-Parser
 Author: Ryan Paul Gozum<br/><br/>
-This is a python script for parsing server apache logs and detecting anomalous events, particularly SQL Injection, Remote File Inclusion, and Web Shell attacks using regular expressions derived from known patterns. 
+This is a python script for parsing server apache logs and detecting anomalous request transactions, particularly SQL Injection, Remote File Inclusion, and Web Shell attacks using regular expressions derived from known patterns. 
 
 
 ## Developer Guide
